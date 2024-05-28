@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  text-align: justify;
+}
+.Products{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.Products li{
+  list-style-type: none;
+}
+.Products li img{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+@media screen and (min-width:769px) {
+  .Products{
+      gap: 2rem;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.ProductDetails {
+  color: blue;
+}
+.Id{
+  color: rgb(245, 116, 24);
+}
+.Price{
+  color: rgb(238, 17, 61);
+}
+.category{
+  color: rgb(241, 18, 10);
+}
+.categoryId{
+  color: rgb(31, 245, 245);
+}
+.categoryName{
+  color: green;
+}
